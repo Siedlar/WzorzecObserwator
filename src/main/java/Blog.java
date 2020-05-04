@@ -3,9 +3,11 @@ import java.util.List;
 
 public class Blog implements Observable {
     private ArrayList<Observer> lista;
+    private String nazwaBloga;
 
-    public Blog(ArrayList <Observer>list) {
-        this.lista = list;
+    public Blog(String nazwaBloga) {
+        this.nazwaBloga = nazwaBloga;
+        this.lista = new ArrayList<Observer>();
     }
 
     public void addObserver(Observer observer) {
@@ -22,6 +24,9 @@ public class Blog implements Observable {
         for(Observer observer:lista){
             observer.update();
         }
-
+    }
+    public void dodajWpisNaBlog(String wpis){
+        System.out.println(wpis);
+        notifyObservers();
     }
 }

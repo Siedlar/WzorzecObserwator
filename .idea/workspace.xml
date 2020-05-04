@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="694137ff-9f5c-453a-be76-1c4a53b2b5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uzytkownik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Blog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Obserwator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -69,9 +82,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2375" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1588598242388">
+    <state x="2375" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1588598806403">
       <screen x="1680" y="-19" width="1920" height="1040" />
     </state>
-    <state x="2375" y="250" key="#com.intellij.ide.util.MemberChooser/1680.-19.1920.1040/0.0.1680.1010@1680.-19.1920.1040" timestamp="1588598242388" />
+    <state x="2375" y="250" key="#com.intellij.ide.util.MemberChooser/1680.-19.1920.1040/0.0.1680.1010@1680.-19.1920.1040" timestamp="1588598806403" />
+    <state width="1339" height="175" key="GridCell.Tab.0.bottom" timestamp="1588599076680">
+      <screen x="1680" y="-19" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="175" key="GridCell.Tab.0.bottom/1680.-19.1920.1040/0.0.1680.1010@1680.-19.1920.1040" timestamp="1588599076680" />
+    <state width="1339" height="175" key="GridCell.Tab.0.center" timestamp="1588599076680">
+      <screen x="1680" y="-19" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="175" key="GridCell.Tab.0.center/1680.-19.1920.1040/0.0.1680.1010@1680.-19.1920.1040" timestamp="1588599076680" />
+    <state width="1339" height="175" key="GridCell.Tab.0.left" timestamp="1588599076680">
+      <screen x="1680" y="-19" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="175" key="GridCell.Tab.0.left/1680.-19.1920.1040/0.0.1680.1010@1680.-19.1920.1040" timestamp="1588599076680" />
+    <state width="1339" height="175" key="GridCell.Tab.0.right" timestamp="1588599076680">
+      <screen x="1680" y="-19" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="175" key="GridCell.Tab.0.right/1680.-19.1920.1040/0.0.1680.1010@1680.-19.1920.1040" timestamp="1588599076680" />
   </component>
 </project>
